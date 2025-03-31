@@ -147,9 +147,11 @@ const Button = styled.button`
   width: 100px;
   height: 50px;
   margin: 1rem;
-  right: 10px;
-  background-color: aqua;
+
+  background-color: white;
   cursor: pointer;
+  right: 10px;
+  bottom: 40px;
 `;
 
 const InputWrapper = styled.div`

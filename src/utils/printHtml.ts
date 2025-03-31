@@ -1,5 +1,11 @@
 const printHtml = (input: string): string => {
   switch (input) {
+    case 'h1':
+      return '<h1 style=""></h1>';
+    case 'h2':
+      return '<h2 style=""></h2>';
+    case 'h3':
+      return '<h3 style=""></h3>';
     case 'div':
       return '<div style=""></div>';
     case 'br':
