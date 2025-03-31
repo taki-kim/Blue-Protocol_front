@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import InputButton from './InputButton';
 import printHtml from '../../utils/printHtml';
 
-const inputArray = ['div', 'br', 'red-font', 'blue-font', 'toggle'];
+const inputArray = ['h1', 'h2', 'h3', 'div', 'br', 'red-font', 'blue-font', 'toggle'];
 
 const HtmlPrinter = () => {
   const [output, setOutput] = useState('');
